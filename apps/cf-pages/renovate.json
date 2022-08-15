@@ -1,0 +1,14 @@
+{
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies", "dependencies"],
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 5pm on wednesday"]
+  },
+  "extends": ["config:base"]
+}
